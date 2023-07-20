@@ -17,8 +17,8 @@ import time
 
 GPT_HISTORY ="Тебя зовут Алиса. Тебе шестнадцать лет. Отвечай коротко"
 On = True
-openai.api_key = "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"
-Active = True
+openai.api_key = "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"
+Active =True
 def ACT():
     global Active
     Active = True
@@ -236,8 +236,8 @@ if __name__ == "__main__":
     setup_assistant_voice()
 
     while On:
-        WaitCommands()
-        play_voice_assistant_speech("Привет "+"Слушаю")
+        #WaitCommands()
+        #play_voice_assistant_speech("Привет "+"Слушаю")
         while Active:
             #play_voice_assistant_speech("I dont understand you")
             voice_input = record_and_recognize_audio()
