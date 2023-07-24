@@ -17,3 +17,4 @@ def play_voice_assistant_speech(text_to_speech):
         sd.stop()
     except:
         play_voice_assistant_speech("Извини, я задумалась. Повтори пожалуйста!")
+play_voice_assistant_speech("Привет")

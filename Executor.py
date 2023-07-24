@@ -1,6 +1,6 @@
 # -*- coding: cp1251 -*-
 from Config import *
-
+from Voicer import *
 def execute_error():
     play_voice_assistant_speech("Я не смогла. Ещё что сделать?")
 def playmusic(name):

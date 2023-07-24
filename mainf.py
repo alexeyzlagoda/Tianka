@@ -4,6 +4,7 @@ from Executor import *
 from Voicer import *
 from GPT import *
 from Recognizer import *
+
 Active = True
 prmpt="Тебя зовут Лена. Тебе шестнадцать лет. Отвечай коротко"
 ChatH = ""

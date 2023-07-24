@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ChatAI",
+    "\\ChatAI\\DataBase",
     "\\Songs"
   ],
-  "SelectedNode": "\\Executor.py",
+  "SelectedNode": "\\ChatAI\\DataBase\\DataPrepare.py",
   "PreviewInSolutionExplorer": false
 }
